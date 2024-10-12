@@ -33,7 +33,10 @@ print(isHappy(2)) #False
 print(isHappy(7))
 </code>
 </pre>
-* Description of your code
-코드에 설명되어있듯이
-  * 성공 조건은 토큰이 1이 나왔을 때
+* Description of your code \
+코드에 설명되어있듯이 \
+  * 성공 조건은 sum값이 1이 나왔을 때
   * 실패 조건은 같은 값이 중복으로 나왔을 때(무한루프)
+line 16~20: 숫자 sum을 문자열로 변환해서 숫자 하나씩 토큰화, 토큰화한 문자열 형태의 숫자를 다시 정수 형태로 digits 리스트에 삽입함. 이후 각 정수를 곱하는 연산을 하고, 다시 sum의 값으로 대입함.
+line 22~29: 연산한 sum의 결과에 따라 1이면 True, 중복이면 False, 둘 다 아니면 루프를 다시 실행
+line 31~33: 결과를 출력
