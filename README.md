@@ -1,6 +1,6 @@
 # SWE_2021_41_2024_2_week_6
 
-## Week 4 Assignment \
+## Week 4 Assignment 
 * Link of your repository
 <pre>
 <code>
@@ -32,6 +32,8 @@ print(isHappy(19)) #True
 print(isHappy(2)) #False
 print(isHappy(7))
 </code>
-
 </pre>
 * Description of your code
+코드에 설명되어있듯이
+  * 성공 조건은 토큰이 1이 나왔을 때
+  * 실패 조건은 같은 값이 중복으로 나왔을 때(무한루프)
