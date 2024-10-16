@@ -49,7 +49,7 @@ print(isHappy(7))
 >   ![os-release](./output1.png)
 
 > <pre> <code>docker exec jongc-container git --version </code></pre>
->   * jongc-container내에 설치된 git 버전을 출력시키는 명령어\
+>   * jongc-container내에 설치된 git 버전을 출력시키는 명령어
 >   <img src="./output2.png" width="600px" heignt="200px" title="git-version"/>
 
 > <pre> <code>docker exec jongc-container python3 --version </code></pre>
